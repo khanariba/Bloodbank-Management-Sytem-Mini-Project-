@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+	<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="recep.css">
+	<style type="text/css">
+		#submit{
+			width:20%;
+			height: 40px;
+  			text-align: center;
+  			background-color:maroon;
+  			 border-radius: 20px;
+  			color:white;
+  			  font-size: 18px; 
+		}
+	</style>
+
+</head>
+<body>
+	<!--Header-->
+	<div class="header"> 
+  		<h1>The Saviour</h1>
+	</div>
+	<!--Navigation bar-->
+	<div class="link" >
+		<nav>
+		<ul>
+  			<li><a class="active" href="home.html"> <i class="fas fa-home"></i> Home</a></li>
+  			<li><a href="regis.php"> <i class="fas fa-user-plus"></i> Register</a></li>
+  			<li><a href="bb.html"> <i class="fas fa-tint"></i> Why Donate Blood?</a></li>
+  			<li><a href="b.html"> <i class="fas fa-tint"></i> Who Needs Blood?</a></li>
+  			<li><a href="contact.html"> <i class="fas fa-phone"></i> Contact</a></li>
+  			<li><a href="about.html">About</a></li>
+  			<!--li><a href="recep.php">php</a></li-->
+  			
+		</ul>
+	    </nav>
+	</div>
+
+		<h2>Donor Login</h2>
+		<form  action="recep.php" method="post" >
+			<div class="DL">
+	
+				<p class="info1">Username <i class="fas fa-user"></i><br>
+				<input type="Username" name="uname" required=""></input></p>
+				<p class="info2">Password    <a href="cpassword.html" target="_blank">Forgot Password?</a><br>
+				<input type="Password" name="upass" required=""></input></p><br><br>
+				  <center><input type="submit" name="submit" value="Login" id="submit"></center>
+				 	
+	
+				</div>
+			</form>
+			
+		<footer class="footer">
+    	<h4>Copyright © TheSaviour.com. 2018. All rights reserved.</h4>
+    	</footer>
+</body>
+</html>

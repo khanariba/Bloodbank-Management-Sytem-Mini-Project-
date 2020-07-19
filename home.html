@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<title>Home Page</title>
+	<link rel="stylesheet" href="style.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body class="main">
+	<!--Header-->
+	<div class="header"> 
+  		<h1>The Saviour</h1>
+	</div>
+	<!--Navigation bar-->
+	<div>
+		<nav>
+  		<ul>
+  			<li><a class="active" href="home.html"> <i class="fas fa-home"></i> Home</a></li>
+  			<li><a href="regis.php"> <i class="fas fa-user-plus"></i> Register</a></li>
+  			<li><a href="bb.html"> <i class="fas fa-tint"></i> Why Donate Blood?</a></li>
+  			<li><a href="b.html"> <i class="fas fa-tint"></i> Who Needs Blood?</a></li>
+  			<li><a href="contact.html"> <i class="fas fa-phone"></i> Contact</a></li>
+  			<li><a href="about.html">About</a></li>
+  			<li  style="float: right;"><a href="receptionist.html">Receptionist Login</a></li>
+		</ul>
+		</nav>
+	</div>
+	<!--Find a Donor-->
+	<br>
+	<br>
+	<div id="inline">
+	<div class="FAD">
+	<h3 class="heading">Find a Donor?  <i class="fas fa-search"></i></h3>
+		<form action="find.php" method="post">
+			<div class="state">
+			<label for="State" style="font-size: 1.7vw; color: Maroon; text-align: center;">State :  </label>
+	   			 <select id="State" name="State">
+	     			 <option value="Andaman Nicobar">Andaman Nicobar</option>
+				      <option value="Andhra Pradesh">Andhra pradesh</option>
+				      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+				      <option value="Assam">Assam</option>
+				      <option value="Bihar">Bihar</option>
+				      <option value="Chandigarh">Chandigarh</option>
+				      <option value="Chattisgarh">Chattisgarh</option>
+				      <option value="Dadra">Dadra</option>
+				      <option value="Daman">Daman</option>
+				      <option value="Delhi">Delhi</option>
+				      <option value="Goa">Goa</option>
+				      <option value="Gujrat">Gujrat</option>
+				      <option value="Hariyana">Hariyana</option>
+				      <option value="Himachal Pradesh">Himachal Pradesh</option>
+				      <option value="Jammu and kashmir">Jammu and kashmir</option>
+				      <option value="Jharkhand">Jharkhand</option>
+				      <option value="Karnataka">Karnataka</option>
+				      <option value="karela">karela</option>
+				      <option value="Lakshdweep">Lakshdweep</option>
+				      <option value="Madhya Pradesh">Madhya pradesh</option>
+				      <option value="Maharashtra">Maharashtra</option>
+				      <option value="Manipur">Manipur</option>
+				      <option value="Meghalaya">Meghalaya</option>
+				      <option value="Mizoram">Mizoram</option>
+				      <option value="Nagaland">Nagaland</option>
+				      <option value="Orrisa">Orrisa</option>
+				      <option value="Pondicherry">Pondicherry</option>
+				      <option value="Punjab">Punjab</option>
+				      <option value="Rajasthan">Rajasthan</option>
+				      <option value="Sikkim">Sikkim</option>
+				      <option value="Tamilnadu">Tamilnadu</option>
+				      <option value="Tripura">Tripura</option>
+				      <option value="uttaranchal">uttaranchal</option>
+				      <option value="Uttar Pradesh">Uttar Pradesh</option>
+				      <option value="West Bengal">West Bengal</option>
+				</select><br><br></div>
+				<div class="city">
+	   		<label for="City" style="font-size: 1.7vw; color: Maroon; text-align: center;">City :  </label>
+	   			 <select id="City" name="City">
+	     			 <option value="Mumbai">Mumbai</option>
+	      			 <option value="Vishakapatnam">Vishakapatnam</option>
+	      			 <option value="Banglore">Banglore</option>
+	      			 <option value="Indore">Indore</option>
+	      			 <option value="Ahmedabad">Ahmedabad</option>
+	      			 <option value="Thane">Thane</option>
+	   			 </select><br><br></div>
+	   		<label for="BG" style="font-size: 1.7vw;color: Maroon;">Blood Group :  </label>
+	   			 <select id="BG" name="BG">
+	     			 <option value="A-">A-</option>
+	      			 <option value="A+">A+</option>
+	      			 <option value="O-">O-</option>
+	      			 <option value="O+">O+</option>
+	      			 <option value="AB-">AB-</option>
+	      			 <option value="AB+">AB+</option>
+	      			 <option value="A2B-">A2B-</option>
+	      			 <option value="A2B+">A2B+</option>
+	      			 <option value="A1B-">A1B-</option>
+	      			 <option value="A1B+">A1B+</option>
+	      			 <option value="B-">B-</option>
+	      			 <option value="B+">B+</option>
+	      			 <option value="A2-">A2-</option>
+	      			 <option value="A2+">A2+</option>
+	      			 <option value="A1-">A1-</option>
+	      			 <option value="A1+">A1+</option>
+	   			 </select><br><br>
+			 <a href="find.php">  <input type="submit" name="submit" value="Find" style="width:100px; height: 35px;
+  text-align: center;background-color:Maroon; border-radius:20px; color:white; font-size: 1.2vw; opacity:0.8; "   id="submit"></a>
+
+<a href="blood.php">  <input type="" name="" value="Blood availablity" style="width:160px ;height: 35px;
+  text-align: center;background-color:Maroon; border-radius: 20px; color:white; font-size: 1.2vw; opacity:0.8; margin-bottom: 10px;"   id="submit"></a>
+	   		</form>
+	</div>
+    	<div class="DL">
+			<h2>Donor Login</h2>
+			<form  action="display.php" method="post" >
+				<p class="info1">Username <i class="fas fa-user"></i><br>
+				<input type="Username" name="uname" required=""></input></p>
+				<p class="info2">Password    <a href="cpassword.html" target="_blank">Forgot Password?</a><br>
+				<input type="Password" name="upass" required=""></input></p><br><br>
+				  <center><input type="submit" name="submit" value="Login" style="width:20%;height: 40px;
+  text-align: center;background-color:Maroon; border-radius: 20px; color:white; font-size: 1.3vw; "   id="submit"></center>
+		</form><br/>
+			<p class="not"> Not a member?  <a href="regis.php" target="_blank">Register now</a>  </p>
+
+		</div>
+
+	
+
+	<br>
+	<br>  
+	<div class="quote">
+
+		<h3 style="text-align: center; font-size: 1.1vw;">You Don't have to be a Doctor to save lives</h3>
+			<h2 style="text-align: center; font-size: 1.5vw;">Just Donate Blood</h2>
+			<img src="bdsign.jpg" style="height: 150px; width: 250px; max-width: 100%; margin-left: 10px; padding-bottom:10px;">
+	</div>
+
+	<footer class="container mt-4">
+	<div class="footer">
+    	<h4>Copyright © TheSaviour.com. 2018. All rights reserved.</h4>
+    </div>
+    </footer>
+<script crossorigin="anonymous" integrity="sha512-cBVlOZpC5ZRNa+i4uKpm6aGKuhhvnBQI7XlZ3dmmmnhT7etQ77hj6oRBoHaE3k3cqJR1JDB07xJKR2Gtw5Bq6Q==" type="application/javascript" src="home.js"></script>
+<script crossorigin="anonymous" async="async" integrity="sha512-2QHFL3Zpfw4ED2qhwlkPQS3CLNO4Zuodz71ygmujFntOJeuPtkoFEMyEVNuIpn7r4NvPWuU0ISHey63HQLHkkA==" type="application/javascript" src="home2.js"></script>
+
+</body>
+</html>
